@@ -1,7 +1,7 @@
 # Enchanted Rose Innovations
 This is the business in which I Develop and License Acolyte under, however this will be an add on to my developer portfolio. [https://hunterbailey.dev](https://hunterbailey.dev).
 
-This application (because it is more than the frontend you see here) will house my developer portal (A.K.A a single place to manage all of my projects, licenses, UI Kits, and more business related items.) this will also house my blog and some more details about the roadmap I have for Acolyte and its accompanying projects going forward.
+This application (because it is more than the frontend you see on the website) will house my developer portal (A.K.A a single place to manage all of my projects, licenses, UI Kits, and more business related items.) this will also house my blog and some more details about the roadmap I have for Acolyte and its accompanying projects going forward.
 
 Feel free to browse the source code to see what works under the hood, I will be changing the platform to fit my needs as time goes on and plan on having a published changelog.
 
