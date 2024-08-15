@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Header from "@/app/components/header/Header";
 import Navbar from "@/app/components/header/Navbar";
+import Footer from "@/app/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,11 +18,14 @@ export default function RootLayout({ children, }: Readonly<{
 }>) {
     return (
         <html lang="en">
-            <body className={`${inter.className} bg-slate-950`}>
+            <body className={`${inter.className} bg-slate-950 flex flex-col min-h-screen`}>
                 <Header>
                     <Navbar brand={"Enchanted Rose Innovations"}/>
                 </Header>
-                {children}
+                <main className="flex-grow">
+                    {children}
+                </main>
+                <Footer />
             </body>
         </html>
     );
