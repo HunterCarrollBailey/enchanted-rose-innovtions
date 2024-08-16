@@ -1,8 +1,8 @@
 "use client";
-import BaseComponentProps from "@/app/components/BaseComponent";
+import BaseComponentProps from "@/components/BaseComponent";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
-import NavBarLink from "@/app/components/header/NavBarLink";
+import NavBarLink from "@/components/header/NavBarLink";
 
 interface NavBarProps extends BaseComponentProps {
   brand?: string;

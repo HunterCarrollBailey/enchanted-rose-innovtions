@@ -12,7 +12,7 @@ I am a Laravel fan and plan to continue to be, however I needed a project to sho
 <p>
 I like having a consistent brand between a lot of my projects. Acolyte is a project that differs in that and we will discuss that a bit later. You may have noticed the same shield and rose emblem in the background, like the one next to this text.
  
-<img align="right" src="/app/assets/images/EnchantedRoseLogo.svg" alt="Enchanted Rose Innovations Logo" width="250">
+<img align="right" src="/assets/images/EnchantedRoseLogo.svg" alt="Enchanted Rose Innovations Logo" width="250">
 
 This is my personal logo and has a great importance to me as my personal brand. It is also the logo that is on the front and back covers of my book. The contrast of the Cyan and the Dark Slate provides a color pallet that in my mind bridges the world of technology and that of fantasy. Again two very big things in my life. I'm an avid gamer and when not programming or exploring my home of Seattle I can be found nose deep in a book or immersed in other worlds via video games. 
 

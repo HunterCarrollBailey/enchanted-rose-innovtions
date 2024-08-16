@@ -1,6 +1,6 @@
 // Home page, has a small component about Bailey, the hero and call to action, and then some recent blog posts.
-import Hero from "@/app/components/homePage/Hero";
-import AboutBailey from "@/app/components/homePage/AboutBailey";
+import Hero from "@/components/homePage/Hero";
+import AboutBailey from "@/components/homePage/AboutBailey";
 
 export default function Home() {
   return (

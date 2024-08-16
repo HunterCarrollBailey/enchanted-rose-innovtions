@@ -1,5 +1,5 @@
 "use client";
-import BassComponentProps from "@/app/components/BaseComponent";
+import BassComponentProps from "@/components/BaseComponent";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 

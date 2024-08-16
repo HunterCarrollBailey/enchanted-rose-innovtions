@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Card from "@/app/components/card/Card";
+import Card from "@/components/card/Card";
 
 const Hero = () => {
   return (
