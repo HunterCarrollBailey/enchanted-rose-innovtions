@@ -27,7 +27,6 @@ const Navbar = (props: NavBarProps) => {
         className={`flex w-full flex-col justify-start overflow-hidden transition-all duration-700 ease-in md:ml-auto md:w-auto md:flex-row ${navOpen ? "max-h-screen opacity-100 md:max-h-fit md:opacity-100" : "max-h-0 opacity-0 md:max-h-fit md:opacity-100"}`}
       >
         <NavBarLink href={"/"} text={"Home"} toggle={toggleNav} />
-        <NavBarLink href={"/about"} text={"About"} toggle={toggleNav} />
         <NavBarLink href={"/acolyte"} text={"Acolyte"} toggle={toggleNav} />
         <NavBarLink href={"/blog"} text={"Blog"} toggle={toggleNav} />
       </ul>

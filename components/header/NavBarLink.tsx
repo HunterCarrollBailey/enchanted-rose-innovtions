@@ -12,7 +12,7 @@ interface NavBarLinkProps extends BassComponentProps {
 const NavBarLink = (props: NavBarLinkProps) => {
   const pathname = usePathname();
   return (
-    <li className="group m-2 flex flex-col rounded-2xl px-5 py-2 hover:bg-slate-700 md:hover:bg-transparent">
+    <li className="group m-2 flex flex-col rounded-2xl px-5 py-2 md:hover:bg-slate-700 md:hover:bg-transparent">
       <Link
         href={props.href}
         onClick={props.toggle}
@@ -21,7 +21,7 @@ const NavBarLink = (props: NavBarLinkProps) => {
         {props.text}
       </Link>
       <div
-        className={`h-1 w-0 rounded-full bg-cyan-400 transition-all duration-700 ease-in-out group-hover:w-full`}
+        className={`h-1 w-0 rounded-full bg-cyan-400 transition-all duration-700 ease-in-out md:group-hover:w-full`}
       ></div>
     </li>
   );
